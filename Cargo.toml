@@ -1,0 +1,13 @@
+[package]
+name = "auth-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.83"
+axum = { version = "0.7.7", features = ["macros"] }
+dotenv = "0.15.0"
+serde = "1.0.210"
+sqlx = { version = "0.8.2", features = ["mysql"] }
+thiserror = "1.0.64"
+tokio = { version = "1", features = ["full"] }
